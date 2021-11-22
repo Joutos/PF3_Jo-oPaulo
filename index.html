@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juros compostos</title>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+    <main>
+      <div class="section">
+
+        <div class="title"> Calculadora de Juros </div>
+
+        <div class="input">
+             <input placeholder="Qual é o seu nome?" type="text" id='nome' required="required">
+        </div>
+
+        <div class="input">
+          <input placeholder="Digite o valor aplicado mensalmente" type="number" id='capital' required="required" >
+      </div>
+
+        <div class="input">
+            <input  placeholder="Qual é a taxa de juros"  type="number" id='taxaJuros'required="required">
+        </div>
+        <div class="input">
+          <input  placeholder="Qual é o tempo da operação"  type="number" id='tempoAplicacao'required="required">
+      </div>
+        
+        <button id='calcular'>Calcular</button>
+
+        <div class="result" id='resultado'></div>  
+
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
